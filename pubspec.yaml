@@ -1,0 +1,60 @@
+name: scoped_bloc_example
+description: Scoped BLoC example
+publish_to: 'none'
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.15.1"
+  flutter: ">=2.8.1"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Annotation & Code-generation
+  meta: ^1.7.0
+  json_annotation: ^4.3.0
+  freezed_annotation: ^1.0.0
+
+  # State manager & Inversion of Control
+  bloc: ^8.0.2
+  flutter_bloc: ^8.0.1
+  bloc_concurrency: ^0.2.0
+
+  # Storage and SQL
+  shared_preferences: ^2.0.5
+
+  # Utility & Helpers
+  l: ^3.0.1
+  async: ^2.6.1
+  collection: ^1.15.0
+
+  # Transformers
+  rxdart: ^0.27.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  #integration_test:
+  #  sdk: flutter
+  analyzer: ">=2.8.0 <4.0.0"
+  build_runner: ^2.1.4
+  build_web_compilers: ^3.2.1
+  mockito: ^5.0.15
+  flutter_lints: ^1.0.4
+  dart_code_metrics: ^4.10.0-dev.2
+  flutter_launcher_icons: ^0.9.0
+  json_serializable: ^6.0.1
+  freezed: ^1.0.0
+  pubspec_generator: ^3.0.1
+  flutter_gen_runner: ^4.0.1
+  args: ^2.0.0
+  pub_semver: ^2.1.0
+
+flutter:
+  uses-material-design: true
+
+# Flutter assets codegen
+flutter_gen:
+  output: lib/src/common/constant/
+  line_length: 120
